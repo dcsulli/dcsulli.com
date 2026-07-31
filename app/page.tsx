@@ -1,3 +1,5 @@
+import SocialLinks from "@/components/SocialLinks";
+
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center">
@@ -9,6 +11,9 @@ export default function Home() {
         Musician, developer, creator. 
         
       </p>
+      
+      <SocialLinks />
+    
     </main>
   );
 }
