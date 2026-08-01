@@ -1,8 +1,9 @@
 import SocialLinks from "@/components/SocialLinks";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center">
+    <main className=" flex flex-col items-center justify-center">
       <h1 className="text-6xl font-bold animate-fade-in">
         DC Sulli
       </h1>
@@ -11,9 +12,10 @@ export default function Home() {
         Musician, developer, creator. 
         
       </p>
+            
       
-      <SocialLinks />
-    
+
     </main>
+    
   );
 }
