@@ -9,9 +9,8 @@ export default function BlogPage() {
 
       {posts.map((post) => (
         <article key={post.slug}>
-          <h2>{post.title}</h2>
-          <p>{post.description}</p>
-          <p>{post.date}</p>
+          <h2>{post.slug}</h2>
+          <p>{post.content}</p>
         </article>
       ))}
     </main>

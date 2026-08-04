@@ -10,9 +10,7 @@ export default async function BlogPost({
 
   return (
     <main>
-      <h1>{post.title}</h1>
-      <p>{post.date}</p>
-      <p>{post.description}</p>
+      <h1>{post.slug}</h1>
 
       <article>
         {post.content}
